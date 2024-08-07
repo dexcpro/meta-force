@@ -5,7 +5,8 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "push": "git add . && git commit -m \"Upload changes\" && git push origin master"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
